@@ -190,6 +190,10 @@ img {
   gap: 24px;
 }
 
+.card-features {
+  width: calc((100% - 72px) / 4);
+}
+
 .title-card-features {
   font-weight: 500;
   font-size: 20px;
@@ -223,6 +227,7 @@ img {
 .card-team {
   background-color: #fff;
   text-align: center;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
